@@ -1,3 +1,11 @@
 {
-    "cSpell.language": "en,lorem,tr,de"
+    "cSpell.language": "en,lorem,tr,de",
+    "cSpell.ignoreWords": [
+        "Firat",
+        "Folmulare",
+        "firstname"
+    ],
+    "cSpell.words": [
+        "folmulare"
+    ]
 }
