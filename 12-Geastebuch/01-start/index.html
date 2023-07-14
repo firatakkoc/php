@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gästebuch</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="guestbook-heading">Gästebuch</h1>
+
+        <form action="">
+            <label class="guestbook-entry-label" for="name">Dein Name</label>
+            <input class="guestbook-entry-input" type="text" id="name" name="name" />
+
+            <label class="guestbook-entry-label" for="name">Title des Eintrags</label>
+            <input class="guestbook-entry-input" type="text" id="title" name="title" />
+
+            <label class="guestbook-entry-label" for="name">Inhalt des Eintrags</label>
+            <textarea 
+                rows="4" 
+                class="guestbook-entry-input" 
+                type="text" 
+                id="content" 
+                name="content"></textarea>
+
+            <div class="guestbook-form-button">
+            <input class="button" type="reset" value="&#10007 Zurücksetzen">
+            <input class="button" type="submit" value="&#10004 Absenden">  
+            </div>
+        </form>
+
+        <hr class="guestbook-separator" />
+
+        <div class="guestbook-entry">
+            <div class="guestbook-entry-header">
+            <h3 class="guestbook-entry-title">Das hier isr der Titel</h3>
+            <span class="guestbook-entry-author">Max Mustermann</span>
+            </div>
+            <div class="guestbook-entry-content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, molestiae! Inventore nemo quia ullam esse deserunt quis aliquam error libero saepe excepturi asperiores ducimus, officiis tempora dolor consequatur dolore itaque.</p>
+            </div>
+        </div>
+
+        <div class="guestbook-entry">
+            <div class="guestbook-entry-header">
+            <h3 class="guestbook-entry-title">Das hier isr der Titel</h3>
+            <span class="guestbook-entry-author">Max Mustermann</span>
+            </div>
+            <div class="guestbook-entry-content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, molestiae! Inventore nemo quia ullam esse deserunt quis aliquam error libero saepe excepturi asperiores ducimus, officiis tempora dolor consequatur dolore itaque.</p>
+            </div>
+        </div>
+
+        <div class="guestbook-entry">
+            <div class="guestbook-entry-header">
+            <h3 class="guestbook-entry-title">Das hier isr der Titel</h3>
+            <span class="guestbook-entry-author">Max Mustermann</span>
+            </div>
+            <div class="guestbook-entry-content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, molestiae! Inventore nemo quia ullam esse deserunt quis aliquam error libero saepe excepturi asperiores ducimus, officiis tempora dolor consequatur dolore itaque.</p>
+            </div>
+        </div>
+
+        <div class="guestbook-entry">
+            <div class="guestbook-entry-header">
+            <h3 class="guestbook-entry-title">Das hier isr der Titel</h3>
+            <span class="guestbook-entry-author">Max Mustermann</span>
+            </div>
+            <div class="guestbook-entry-content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, molestiae! Inventore nemo quia ullam esse deserunt quis aliquam error libero saepe excepturi asperiores ducimus, officiis tempora dolor consequatur dolore itaque.</p>
+            </div>
+        </div>
+
+        <div class="guestbook-entry">
+            <div class="guestbook-entry-header">
+            <h3 class="guestbook-entry-title">Das hier isr der Titel</h3>
+            <span class="guestbook-entry-author">Max Mustermann</span>
+            </div>
+            <div class="guestbook-entry-content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, molestiae! Inventore nemo quia ullam esse deserunt quis aliquam error libero saepe excepturi asperiores ducimus, officiis tempora dolor consequatur dolore itaque.</p>
+            </div>
+        </div>
+
+        <ul class="guestbook-pagination">
+            <li class="guestbook-pagination-li">
+                <a class="guestbook-pagination-a guestbook-pagination-active" href="#">1</a>
+            </li>
+            <li class="guestbook-pagination-li">
+                <a class="guestbook-pagination-a" href="#">2</a>
+            </li>
+            <li class="guestbook-pagination-li">
+                <a class="guestbook-pagination-a" href="#">3</a>
+            </li>
+            <li class="guestbook-pagination-li">
+                <a class="guestbook-pagination-a" href="#">4</a>
+            </li>
+        </ul>
+
+        <hr class="guestbook-separator">
+
+        <footer class="guestbook-footer">
+            <p>Implementiert im PHP</p>
+        </footer>
+    </div>
+
+</body>
+
+</html>
