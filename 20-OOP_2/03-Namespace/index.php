@@ -12,8 +12,11 @@ spl_autoload_register(function($class) {
     require_once $file;
   }
 
+  // test API
+
 });
 
+echo "<br>";
 echo "<br>";
 $ad = new Admin_User();
 $ad->printAdmin();
