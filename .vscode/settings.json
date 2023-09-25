@@ -9,5 +9,21 @@
     "cSpell.words": [
         "folmulare",
         "Strat"
+    ],
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "sql_lab",
+            "database": "db_vscode",
+            "username": "root",
+            "password": ""
+        }
     ]
 }
